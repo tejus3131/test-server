@@ -1,1 +1,1 @@
-It is just a test flask server for an upcomming project.
+It is just a test flask server for an upcoming project.
