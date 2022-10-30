@@ -14,7 +14,7 @@
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="/"><img src="/static/logo.jpg" class="rounded float-start"
-                    style="margin-right: 15px;" alt="" width="30" height="30">The Harsh Blogs</a>
+                    style="margin-right: 15px;" alt="" width="30" height="30">{% block navbar %}{% endblock %}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -56,7 +56,7 @@
 
     <footer class="navbar navbar-dark bg-dark fixed-bottom">
         <div class="container-fluid">
-                    <a class="navbar-brand position-relative" href="/">The Harsh Blogs</a>
+                    <a class="navbar-brand position-relative" href="/">{% block footer %}{% endblock %}</a>
                     <a class="nav-link position-relative" style="color: white;" href="https://www.linkedin.com/in/tejus-gupta-323392237/" target="_blank">Owned By Harsh
                         Patel</a>
                     <a class="nav-link position-relative" style="color: white;" href="https://www.linkedin.com/in/tejus-gupta-323392237/" target="_blank">Created By Tejus
